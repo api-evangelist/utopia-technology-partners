@@ -1,8 +1,23 @@
 aid: utopia-technology-partners
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/utopia-technology-partners.png
 name: Utopia Technology Partners
-description: Utopia Technology Partners is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Utopia Technology Partners, Inc. was a help desk software and IT support
+  services company based in Larkspur, California, backed by Battery Ventures (listed
+  as an exited investment). It was acquired by Royalblue Group plc of Woking, UK on
+  May 11, 1998, expanding Royalblue's US help desk operation to the West Coast. The
+  company is defunct - its California corporate registration is suspended and it
+  publishes no website, developer portal, or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/utopia-technology-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,31 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Royalblue Group plc
+x-acquired-date: '1998-05-11'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Help Desk
+- IT Support
+- Customer Service
+- Enterprise Software
+- Defunct
 apis: []
+common:
+- type: LLMsTxt
+  name: Utopia Technology Partners llms.txt
+  url: llms/utopia-technology-partners-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
